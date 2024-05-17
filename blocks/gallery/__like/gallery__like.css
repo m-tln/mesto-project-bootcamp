@@ -9,3 +9,7 @@
     background-color: white;
     cursor: pointer;
 }
+
+.gallery__like:hover {
+    opacity: 0.5;
+}

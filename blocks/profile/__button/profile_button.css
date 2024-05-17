@@ -11,3 +11,7 @@
     background-color: black;
     cursor: pointer;
 }
+
+.profile__button:hover {
+    opacity: 0.6;
+}
