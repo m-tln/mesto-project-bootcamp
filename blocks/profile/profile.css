@@ -1,0 +1,17 @@
+@import "__container/profile__container.css";
+@import "__image/profile__image.css";
+@import "__info/profile__info.css";
+@import "__title/profile__title.css";
+@import "__button/profile_button.css";
+@import "__text/profile__text.css";
+@import "__subtitle/profile__subtitle.css";
+@import "__add-button/profile__add-button.css";
+
+.profile {
+    margin: 0 auto;
+    max-width: 880px;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
