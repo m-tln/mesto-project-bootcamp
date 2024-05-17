@@ -1,0 +1,12 @@
+@import "__image/header__image.css";
+
+.header {
+    width: 880px;
+    min-height: 74px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    row-gap: 41px;
+    padding-top: 45px;
+    border-bottom: 1px solid rgba(84, 84, 84, .7);
+}
