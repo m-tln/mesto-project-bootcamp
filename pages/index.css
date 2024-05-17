@@ -8,6 +8,8 @@
 
 @import "../blocks/header/header.css";
 
+@import "../blocks/footer/footer.css";
+
 .photo-grid {
     padding: 51px 0 0 0;
     margin: 0 auto;
