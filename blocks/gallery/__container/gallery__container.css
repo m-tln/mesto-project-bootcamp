@@ -1,0 +1,11 @@
+.gallery__container {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(3, auto);
+    padding: 50px 0 0 0;
+    row-gap: 20px;
+    column-gap: 17px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    max-width: 880px;
+}
