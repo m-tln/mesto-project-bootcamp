@@ -4,3 +4,11 @@
     row-gap: 16px;
     width: 336px;
 }
+
+@media screen and (max-width: 320px) {
+    .profile__info {
+        max-width: 320px;
+        align-items: center;
+        row-gap: 14px;
+    }
+}

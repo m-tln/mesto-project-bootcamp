@@ -4,3 +4,9 @@
     flex-wrap: nowrap;
     column-gap: 30px;
 }
+
+@media screen and (max-width: 320px) {
+    .profile__container {
+        column-gap: 10px;
+    }
+}

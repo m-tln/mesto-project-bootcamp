@@ -6,3 +6,12 @@
     align-items: center;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 320px) {
+    .profile {
+        max-width: 320px;
+        flex-direction: column;
+        padding-top: 42px;
+        row-gap: 36px;
+    }
+}
