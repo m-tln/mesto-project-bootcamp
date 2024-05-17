@@ -1,0 +1,10 @@
+.gallery__handler-flex {
+    display: flex;
+    width: 246px;
+    margin: 0 auto;
+    min-height: 79px;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
