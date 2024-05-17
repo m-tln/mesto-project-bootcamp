@@ -1,3 +1,3 @@
 # Проект: Место
 
-tulin.ma@phystech.edu
+https://m-tln.github.io/mesto-project-bootcamp/
