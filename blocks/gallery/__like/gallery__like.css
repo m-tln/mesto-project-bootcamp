@@ -6,12 +6,6 @@
     background-size: 22px 19px;
     background-image: url(../../../images/heart.svg);
     border: none;
-    background-color: #fff;
-    cursor: pointer;
-}
-
-.gallery__like:hover {
-    opacity: 60%;
-    transition: opacity 200ms linear;
+    background-color: white;
     cursor: pointer;
 }
