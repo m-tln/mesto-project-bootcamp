@@ -8,4 +8,5 @@
     flex-direction: column;
     position: relative;
     background: white;
+    row-gap: 27px;
 }

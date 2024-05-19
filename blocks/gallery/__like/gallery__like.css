@@ -6,7 +6,7 @@
     background-size: 22px 19px;
     background-image: url(../../../images/heart.svg);
     border: none;
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0);
     cursor: pointer;
 }
 
