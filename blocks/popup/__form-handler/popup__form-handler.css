@@ -1,11 +1,13 @@
 .popup__form-handler {
     display: flex;
     flex-direction: column;
-    row-gap: 29px;
+    row-gap: 25px;
 }
 
 @media screen and (max-width: 650px){
     .popup__form-handler {
         row-gap: 27px;
+        max-width: 282px;
+        width: 100%;
     }
 }

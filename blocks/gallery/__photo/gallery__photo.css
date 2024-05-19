@@ -1,12 +1,11 @@
 .gallery__photo {
     margin: 0;
     max-width: 282px;
-    min-height: 361px;
     object-fit: contain;
     border-radius: 10px 10px;
     display: flex;
     flex-direction: column;
     position: relative;
     background: white;
-    row-gap: 27px;
+    row-gap: 5px;
 }

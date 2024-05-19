@@ -1,6 +1,6 @@
 .gallery__title {
     max-width: 200px;
-    margin: 0;
+    margin: 22px 0 23px 0;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
