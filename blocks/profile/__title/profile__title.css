@@ -2,11 +2,14 @@
     display: flex;
     column-gap: 18px;
     align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 650px) {
     .profile__title {
-        font-size: 27px;
-        line-height: 33px;
+        column-gap: 10px;
+        margin: 0 0 0 27px;
     }
 }

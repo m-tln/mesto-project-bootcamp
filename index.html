@@ -24,67 +24,65 @@
         </div>
         <button class="profile__add-button"></button>
     </section>
-</main>
-<section class="gallery">
-    <section class="gallery__container">
-        <div class="gallery__photo">
-            <img class="gallery__image" src="images/karachaevsk.jpg" alt="Gallery photo">
-            <div class="gallery__handler-flex">
-                <h2 class="gallery__title">Карачаевск</h2>
-                <button class="gallery__like"></button>
+    <section class="gallery">
+        <section class="gallery__container">
+            <div class="gallery__photo">
+                <img class="gallery__image" src="images/karachaevsk.jpg" alt="Gallery photo">
+                <div class="gallery__handler-flex">
+                    <h2 class="gallery__title">Карачаевск</h2>
+                    <button class="gallery__like"></button>
+                </div>
             </div>
-        </div>
-        <div class="gallery__photo">
-            <img class="gallery__image" src="images/elbrus.png" alt="Gallery photo">
-            <div class="gallery__handler-flex">
-                <h2 class="gallery__title">Гора Эльбрус</h2>
-                <button class="gallery__like"></button>
+            <div class="gallery__photo">
+                <img class="gallery__image" src="images/elbrus.png" alt="Gallery photo">
+                <div class="gallery__handler-flex">
+                    <h2 class="gallery__title">Гора Эльбрус</h2>
+                    <button class="gallery__like"></button>
+                </div>
             </div>
-        </div>
-        <div class="gallery__photo">
-            <img class="gallery__image" src="images/dombai.png" alt="Gallery photo">
-            <div class="gallery__handler-flex">
-                <h2 class="gallery__title">Домбай</h2>
-                <button class="gallery__like"></button>
+            <div class="gallery__photo">
+                <img class="gallery__image" src="images/dombai.png" alt="Gallery photo">
+                <div class="gallery__handler-flex">
+                    <h2 class="gallery__title">Домбай</h2>
+                    <button class="gallery__like"></button>
+                </div>
             </div>
-        </div>
-        <div class="gallery__photo">
-            <img class="gallery__image" src="images/karachaevsk.jpg" alt="Gallery photo">
-            <div class="gallery__handler-flex">
-                <h2 class="gallery__title">Карачаевск</h2>
-                <button class="gallery__like"></button>
+            <div class="gallery__photo">
+                <img class="gallery__image" src="images/karachaevsk.jpg" alt="Gallery photo">
+                <div class="gallery__handler-flex">
+                    <h2 class="gallery__title">Карачаевск</h2>
+                    <button class="gallery__like"></button>
+                </div>
             </div>
-        </div>
-        <div class="gallery__photo">
-            <img class="gallery__image" src="images/elbrus.png" alt="Gallery photo">
-            <div class="gallery__handler-flex">
-                <h2 class="gallery__title">Гора Эльбрус</h2>
-                <button class="gallery__like"></button>
+            <div class="gallery__photo">
+                <img class="gallery__image" src="images/elbrus.png" alt="Gallery photo">
+                <div class="gallery__handler-flex">
+                    <h2 class="gallery__title">Гора Эльбрус</h2>
+                    <button class="gallery__like"></button>
+                </div>
             </div>
-        </div>
-        <div class="gallery__photo">
-            <img class="gallery__image" src="images/dombai.png" alt="Gallery photo">
-            <div class="gallery__handler-flex">
-                <h2 class="gallery__title">Домбай</h2>
-                <button class="gallery__like"></button>
+            <div class="gallery__photo">
+                <img class="gallery__image" src="images/dombai.png" alt="Gallery photo">
+                <div class="gallery__handler-flex">
+                    <h2 class="gallery__title">Домбай</h2>
+                    <button class="gallery__like"></button>
+                </div>
             </div>
-        </div>
+        </section>
     </section>
-</section>
+</main>
 <footer class="footer">
     <p class="footer__text">© 2024 Mesto Russia</p>
 </footer>
 
-<div class="popup popup_opened">
+<div class="popup">
     <div class="popup__container">
         <button class="popup__close-button"></button>
         <h3 class="popup__header">Редактировать профиль</h3>
         <form class="popup__form">
             <div class="popup__form-handler">
-                <label for="name"></label>
-                <input type="text" id="name" placeholder="ФИО" class="popup__field">
-                <label for="work"></label>
-                <input type="text" id="work" placeholder="Сфера деятельности" class="popup__field">
+                <input type="text" id="name" name="name" placeholder="ФИО" class="popup__field">
+                <input type="text" id="work" name="about" placeholder="Сфера деятельности" class="popup__field">
             </div>
             <button type="submit" class="popup__submit-button">Сохранить</button>
         </form>

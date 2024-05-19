@@ -10,9 +10,17 @@
     max-width: 880px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 900px) {
     .gallery__container {
         padding: 36px 0 0 0;
+        max-width: 600px;
+        grid-template-rows: repeat(3, auto);
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .gallery__container {
         max-width: 282px;
         grid-template-rows: repeat(6, auto);
         grid-template-columns: repeat(1, auto);
