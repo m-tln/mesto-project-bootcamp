@@ -17,74 +17,72 @@
             <div class="profile__info">
                 <div class="profile__title">
                     <h1 class="profile__text">Жак-Ив Кусто</h1>
-                    <button class="profile__button"></button>
+                    <button aria-label="Изменить профиль" class="profile__button"></button>
                 </div>
-                <h2 class="profile__subtitle">Исследователь океана</h2>
+                <p class="profile__subtitle">Исследователь океана</p>
             </div>
         </div>
-        <button class="profile__add-button"></button>
+        <button type="button" class="profile__add-button"></button>
     </section>
     <section class="gallery">
-        <section class="gallery__container">
-            <div class="gallery__photo">
-                <img class="gallery__image" src="images/karachaevsk.jpg" alt="Gallery photo">
-                <div class="gallery__handler-flex">
-                    <h2 class="gallery__title">Карачаевск</h2>
-                    <button class="gallery__like"></button>
-                </div>
+        <div class="gallery__photo">
+            <img class="gallery__image" src="images/karachaevsk.jpg" alt="Gallery photo">
+            <div class="gallery__handler-flex">
+                <p class="gallery__title">Карачаевск</p>
+                <button aria-label="Лайк" type="button" class="gallery__like"></button>
             </div>
-            <div class="gallery__photo">
-                <img class="gallery__image" src="images/elbrus.png" alt="Gallery photo">
-                <div class="gallery__handler-flex">
-                    <h2 class="gallery__title">Гора Эльбрус</h2>
-                    <button class="gallery__like"></button>
-                </div>
+        </div>
+        <div class="gallery__photo">
+            <img class="gallery__image" src="images/elbrus.png" alt="Gallery photo">
+            <div class="gallery__handler-flex">
+                <p class="gallery__title">Гора Эльбрус</p>
+                <button aria-label="Лайк" type="button" class="gallery__like"></button>
             </div>
-            <div class="gallery__photo">
-                <img class="gallery__image" src="images/dombai.png" alt="Gallery photo">
-                <div class="gallery__handler-flex">
-                    <h2 class="gallery__title">Домбай</h2>
-                    <button class="gallery__like"></button>
-                </div>
+        </div>
+        <div class="gallery__photo">
+            <img class="gallery__image" src="images/dombai.png" alt="Gallery photo">
+            <div class="gallery__handler-flex">
+                <p class="gallery__title">Домбай</p>
+                <button aria-label="Лайк" type="button" class="gallery__like"></button>
             </div>
-            <div class="gallery__photo">
-                <img class="gallery__image" src="images/karachaevsk.jpg" alt="Gallery photo">
-                <div class="gallery__handler-flex">
-                    <h2 class="gallery__title">Карачаевск</h2>
-                    <button class="gallery__like"></button>
-                </div>
+        </div>
+        <div class="gallery__photo">
+            <img class="gallery__image" src="images/karachaevsk.jpg" alt="Gallery photo">
+            <div class="gallery__handler-flex">
+                <p class="gallery__title">Карачаевск</p>
+                <button aria-label="Лайк" type="button" class="gallery__like"></button>
             </div>
-            <div class="gallery__photo">
-                <img class="gallery__image" src="images/elbrus.png" alt="Gallery photo">
-                <div class="gallery__handler-flex">
-                    <h2 class="gallery__title">Гора Эльбрус</h2>
-                    <button class="gallery__like"></button>
-                </div>
+        </div>
+        <div class="gallery__photo">
+            <img class="gallery__image" src="images/elbrus.png" alt="Gallery photo">
+            <div class="gallery__handler-flex">
+                <p class="gallery__title">Гора Эльбрус</p>
+                <button aria-label="Лайк" type="button" class="gallery__like"></button>
             </div>
-            <div class="gallery__photo">
-                <img class="gallery__image" src="images/dombai.png" alt="Gallery photo">
-                <div class="gallery__handler-flex">
-                    <h2 class="gallery__title">Домбай</h2>
-                    <button class="gallery__like"></button>
-                </div>
+        </div>
+        <div class="gallery__photo">
+            <img class="gallery__image" src="images/dombai.png" alt="Gallery photo">
+            <div class="gallery__handler-flex">
+                <p class="gallery__title">Домбай</p>
+                <button aria-label="Лайк" type="button" class="gallery__like"></button>
             </div>
-        </section>
+        </div>
     </section>
 </main>
 <footer class="footer">
     <p class="footer__text">© 2024 Mesto Russia</p>
 </footer>
 
-<div class="popup">
+<div class="popup popup_opened">
     <div class="popup__container">
-        <button class="popup__close-button"></button>
+        <button type="button" aria-label="Закрыть" class="popup__close-button"></button>
         <h3 class="popup__header">Редактировать профиль</h3>
         <form class="popup__form">
             <div class="popup__form-handler">
                 <input type="text" id="name" name="name" placeholder="ФИО" class="popup__field">
                 <input type="text" id="work" name="about" placeholder="Сфера деятельности" class="popup__field">
             </div>
-            <button type="submit" class="popup__submit-button">Сохранить</button>
+            <button type="submit" aria-label="Сохранение" class="popup__submit-button">Сохранить</button>
         </form>
     </div>
 </div>
